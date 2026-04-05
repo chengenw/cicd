@@ -35,6 +35,6 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
       - name: Deploy to Railway
-        run: railway up --service cicd-demo
+        run: railway up --service cicd
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
