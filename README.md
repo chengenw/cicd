@@ -34,7 +34,7 @@ app is the Flask instance used by Gunicorn (Procfile).
 
 ### Procfile
 - Tells Railway how to start the app in production.
-- Format: web: gunicorn <python_file>:<flask_app_variable>
+- Format: `web: gunicorn <python_file>:<flask_app_variable>`
 
 ### CI/CD Workflow (.github/workflows/ci.yml)
 - Lint: Ensures code style is consistent with Flake8.
